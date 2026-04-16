@@ -1,0 +1,125 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+nav ul li {
+    flex: 1;
+    background-color: darkblue;
+    text-align: center;
+    border: 5px;
+    width: 25%;
+    padding: 20px;
+    display: block;
+}
+
+nav ul li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 20px 0;
+}
+
+nav ul li a:hover{
+    color: rgb(150, 150, 13);
+    background-color:blue; 
+    transition: 0.3s;
+}
+
+
+
+
+
+
+.home22{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+
+footer{
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding:20px 0 ;
+    margin-top: 50px;
+    width: 100%;
+    direction: rtl;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+}
+form input, form textarea, form button {
+    padding: 10px;
+    border: 2px solid darkblue;
+    padding: 10px;
+}
+.contact-form button:hover{
+    background-color:darkblue ;
+    color: white;
+}
+
+.contact-section{
+    text-align: center;
+    color: darkblue;
+    margin-top: 30px;
+}
+
+
+
+table{
+    border: 3px solid darkblue;
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    direction: rtl;
+    margin-top: 60px;
+}
+
+th {
+    border:3px solid #ddd;
+    background-color: darkblue;
+    color: white;
+    padding: 15px;
+}
+
+td{
+    padding: 10px;
+    border: 3px solid #ddd;
+    text-align: center;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    direction: rtl;
+}
+
+main{
+    flex: 1;
+}
